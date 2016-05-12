@@ -16,5 +16,17 @@ namespace IS412_NET_Implementation_Final_Project
         {
             InitializeComponent();
         }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {      
+            Environment.Exit(-1); // closes the application
+        }
+
+        private void pictureBox2_Click(object sender, EventArgs e)
+        {
+            Form frm2 = new Form2(); // assign variable frm2 to Form2
+            frm2.Show(); // open Form2
+            this.Hide(); // hide Form1
+        }
     }
 }
