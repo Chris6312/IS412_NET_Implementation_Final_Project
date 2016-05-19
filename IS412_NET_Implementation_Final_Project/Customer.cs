@@ -14,14 +14,9 @@ namespace IS412_NET_Implementation_Final_Project
         public string carModel { get; set; }
         public string maintDescription { get; set; }
 
-        // six parameter constructor
-        public Customer(/*string name, string year, string make, string model, string description*/)
+        // parameterless constructor
+        public Customer()
         {
-            //custName = name;
-            //carYear = year;
-            //carMake = make;
-            //carModel = model;
-            //maintDescription = description;
         }
 
         // return string representation of Customer object
